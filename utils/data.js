@@ -60,4 +60,4 @@ const getRandomArrItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
 const getRandomName = () =>
   `${getRandomArrItem(names)} ${getRandomArrItem(names)}`;
 
-module.exports = { getRandomName, getVideoReactions };
+module.exports = { getRandomName };
